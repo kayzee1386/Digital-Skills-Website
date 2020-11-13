@@ -1,0 +1,201 @@
+/*------------Starting---------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #C4C4C4;
+    font-size: 26px;
+    font: normal;
+    width: 100%;
+}
+
+/*------------Navigation---------- */
+
+.main-nav {
+    background-color:  rgb(92, 219, 92);
+    height: 80px;
+    width: 100%;
+    left: 1246px;
+    top: 26px;
+}
+
+.main-nav li {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 30px;
+    width: 116px;
+    margin-top: 26px;
+    overflow: hidden;
+    font-size: 26px;  
+    float: right;
+    text-decoration: none;
+}
+
+/*------------HourGlass---------- */
+
+.hourglass {
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 100%;
+    min-height: 100%; 
+    background-image: url(images/img.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    padding: 90px 30px;
+}
+
+
+/*------------Programme---------- */
+
+.programme {
+    font-size: 48px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    /* margin-top: 0; */
+    line-height: 70px;
+}
+
+/*------------Skills---------- */
+
+.container3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /* width: 720px;
+    height: 450px;
+    left: 720px;
+    top: 734px; */
+    
+
+}
+
+.img-rounded {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.bg-green {
+    background-color:  rgb(92, 219, 92);
+}
+
+.bg-grey {
+    background-color: #c4c4c4;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Container4 */
+
+.container-row{
+    padding: 80px 0;
+    width: 100%;
+    background-color: white;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+
+.skills-text {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+}
+
+button {
+    background-color: rgb(92, 219, 92);
+}
+
+
+/* LOGOS */
+
+.logos {
+    height: 100%;
+    left: 277px;
+    top: 200px;
+    font-size: 48px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 10px;
+    padding: 30px;
+    margin-top: 0;
+    line-height: 56px;
+}
+
+/* Footer */
+
+
+.container2 {
+    background-color:  rgb(92, 219, 92);
+    padding-top: 5px;
+    text-align: center;
+}
+
+.img {
+    justify-content: center;
+}
+
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+
+.col-3{
+    width: 32.33%;
+    float: left;
+}
+
+.col-3:not(:last-child){
+    margin-right: 10px;
+}
+
+.box h3{
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
